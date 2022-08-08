@@ -6,7 +6,7 @@
 # Install minimum requirements
 pkg update
 pkg upgrade
-pkg -y wget unzip
+pkg install -y wget unzip
 
 # Rename personnal homer configuration repo for clarity
 mv main homer-config
@@ -24,7 +24,7 @@ mv master/png/*.png homer/assets/icons/
 rm master.zip master
 
 # Set up NGINX web server
-pkg -y install nginx
+pkg install -y nginx
 sysrc nginx_enable=YES
 
 mkdir -p /usr/local/www/homer/
