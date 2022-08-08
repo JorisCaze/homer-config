@@ -20,7 +20,7 @@ mv homer-config/config.yml homer/assets/
 # Download icons from open-source GitHub repo
 wget https://github.com/walkxhub/dashboard-icons/archive/refs/heads/master.zip
 unzip master.zip
-mv png/*.png homer/icons/
+mv master/png/*.png homer/assets/icons/
 rm master.zip master
 
 # Set up NGINX web server
