@@ -91,6 +91,10 @@ services:
         logo: "assets/icons/qbittorrent.png"
         subtitle: "Download client"
         url: "http://192.168.1.7:8080/"
+      - name: "Jackett"
+        logo: "assets/icons/jackett.png"
+        subtitle: "Manage torrent indexers"
+        url: "http://192.168.1.35:9117/UI/Dashboard"
         target: "_blank" # optional html a tag target attribute
   - name: "Administration"
     icon: "fas fa-server"
