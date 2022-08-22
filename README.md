@@ -33,14 +33,15 @@ Icons for the UI are extracted from [walkwhub GitHub repository](https://github.
 Download and unzip this repository:
 
 ```
-wget https://github.com/JorisCaze/homer/archive/refs/heads/main.zip
-unzip main.zip
+wget https://github.com/JorisCaze/homer-config/archive/refs/heads/main.zip -O homer-config.zip
+unzip homer-config.zip
 ```
 
 Run the deploy script:
 
 ```
-./main/deploy.sh
+chmod 744 homer-config-main/deploy.sh
+./homer-config-main/deploy.sh
 ```
 
 <!-- LICENSE -->
